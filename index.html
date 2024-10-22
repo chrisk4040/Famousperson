@@ -15,9 +15,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-lg " id="nav">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,10 +26,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Early Years</a>
-                        <a class="nav-link" href="#">Challenges</a>
-                        <a class="nav-link">Accomplishments</a>
+                        <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link text-light" href="#Early">Early Years</a>
+                        <a class="nav-link text-light" href="#acc">Accomplishments</a>
+                        <a class="nav-link text-light" href="#chall">Challenges</a>
                     </div>
                 </div>
             </div>
@@ -45,12 +46,12 @@
             <title>Bootstrap Grid Example</title>
         </head>
 
-        <body>
+        <body id="bod">
             <div class="container-fluid mt-3">
                 <div class="row justify-content-center m-3 ">
                     <div class="col-12 text-center py-2 ">
-
-                        <h2><u>Cornol Sanders</u></h2>
+                        <!--first row with main image-->
+                        <h2 id="Home"><u>Colonel Sanders</u></h2>
                     </div>
                     <div class="col-12 text-center d-sm-none d-md-block mt-3 border-bottom border-3 border-dark pb-2">
                         <img src="./img/download (7).jpeg" class="img-fluid" alt="Centered Image">
@@ -58,43 +59,64 @@
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <!-- 6 col-6 columns -->
-                    <div class="col-md-6 col-12 mb-3 order-sm-1 order-md-1 text-center">
-                        <img src="https://picsum.photos/200" alt="">
+                    <div class="col-md-6 col-12 mb-3 order-sm-1 order-md-1 text-center" id="Early">
+                        <img src="./img/csandersyoung.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-md-6 col-12 mb-3  order-sm-2 order-md-2 text-center">
-
-                        <h1 class="d-sm-none d-md-block p=3">head</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, molestiae cumque. Earum,
-                            maxime tempora, et suscipit incidunt possimus ipsam autem nostrum ea delectus molestiae
-                            libero non harum sapiente veniam nulla!
+                        <!--early years div-->
+                        <h1 class="d-sm-none d-md-block p=3">Early Years</h1>
+                        <p>
+                            Colonel Harland Sanders was born on September 9, 1890, in Henryville, Indiana, to parents
+                            Wilbur and Margaret Ann. His childhood was marked by tragedy when his father passed away
+                            when he was just six years old. This led to his mother working in a tomato cannery, and
+                            Harland, at the age of seven, taking on the responsibility of caring for his younger
+                            siblings. He developed his cooking skills at a young age, learning to prepare bread and
+                            vegetables, and eventually, meat.
                         </p>
                     </div>
                     <div class="col-md-6 col-12 mb-3 order-sm-4 order-md-3 text-center p-3">
-                        <h1 class="d-sm-none d-md-block">head</h1>
+
+                        <h1 class="d-sm-none d-md-block">Accomplishments</h1>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia exercitationem, fugiat
-                            quidem quia culpa dicta eos suscipit inventore, quasi, similique molestiae corporis itaque
-                            quo ipsa aperiam vero omnis vel in?
+                            After Sanders huge success with KFC, Colonel Sanders went on to achieve many other things.
+                            He
+                            established the Harland Sanders Foundation in the 1970s. Through this foundation, he
+                            generously donated much of his wealth to various causes, supporting churches, hospitals, and
+                            organizations like the Salvation Army and the Boy Scouts. In his later years, he took on a
+                            remarkable commitment by adopting 78 orphans from overseas
+
                         </p>
                     </div>
-                    <div class="col-md-6 col-12 mb-3 order-sm-3 order-md-4 text-center">
-                        <img src="https://picsum.photos/200" alt="">
+                    <div class="col-md-6 col-12 mb-3 order-sm-3 order-md-4 text-center" id="acc">
+                        <!--accomplisment photo-->
+                        <img src="./img/csanderold.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="col-md-6 col-12 mb-3 order-sm-5 order-md-5 text-center">
-                        <img src="https://picsum.photos/200" alt="">
+                    <div class="col-md-6 col-12 mb-3 order-sm-5 order-md-5 text-center" id="chall">
+                        <!--challenges photo-->
+                        <img src="./img/bwcsanders.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-md-6 col-12 mb-3 order-sm-6 order-md-6 text-center p-3">
-                        <h1 class="d-sm-none d-md-block">head</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, facere nulla? Repellat
-                            minima architecto consequatur ratione itaque dicta ipsum? Ea quod nulla tempora accusamus
-                            exercitationem nobis perspiciatis aspernatur cumque magnam!
+                        <h1 class="d-sm-none d-md-block">Challenges</h1>
+                        <p>Colonel Sanders faced numerous challenges throughout his journey to build the KFC empire.
+                            Starting from humble beginnings, he encountered financial hardships, including the loss of
+                            his first restaurant due to a fire. Perhaps most notably, he faced skepticism and rejection
+                            as he pitched his unique fried chicken recipe, which was turned down over a thousand times
+                            by restaurant owners across the country. Despite these obstacles, his relentless
+                            determination and resilience fueled his passion, leading him to perfect his secret blend of
+                            herbs and spices.
                         </p>
                     </div>
                     <!-- 2 additional col-12 columns -->
+                    <!--embded  video-->
+
                     <div class="col-12 my-3 text-center order-7">
-                        <img src="https://picsum.photos/200" alt="">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/TLTO0X9AG-A?si=GPU-OX6QdJ0oDnNb"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
-                    <div class="col-12 my-3 text-center d-sm-none d-md-block order-8 px-3">
+                    <div class="col-12 my-3 text-center d-none order-8 px-3">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur officia quasi blanditiis
                             itaque eligendi optio excepturi est necessitatibus? Illo nemo distinctio sed ipsa error quae
                             reiciendis voluptas recusandae consequuntur laudantium?

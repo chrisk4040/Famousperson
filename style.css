@@ -4,6 +4,12 @@
     ;
 }
 
-#bod {
-    
+
+
+h1, h2 {
+    font-family: "quador", serif;
+    font-weight: 600;
+    font-style: normal;
 }
+
+p {font-weight: bold;}
